@@ -65,9 +65,9 @@ body{
 
 /* header styles */
 header{
-    
+
     /* background-color: rgb(34,34,34); */
-    background: linear-gradient(180deg, #111 0%,rgb(34,34,34),#111 100% );
+    background: linear-gradient(180deg, #111 0%,rgb(34,34,34),rgb(0,0,0) 100% );
     padding: 57px 150px 0;
 }
 nav{
@@ -171,7 +171,7 @@ nav li a{
 }
 .video-tutorial-content h3{
     color: #FAFAF9;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 900;
     line-height: 24px;
@@ -179,7 +179,7 @@ nav li a{
 }
 .video-tutorial-content p{
     color: rgba(239, 237, 232, 0.65);
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -202,23 +202,44 @@ nav li a{
 }
 .Workout-videos-content h3{
     color: #FFF;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 900;
-    line-height: 40px;
+    line-height: 2.5rem;
     letter-spacing: 1px;
 }
 .Workout-videos-content p{
     color: rgba(255, 255, 255, 0.65);
-    font-size: 13px;
+    font-size: 0.82rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1em;
     letter-spacing: 1px;
 }
+/* main section style */
+main{
+    background: rgb(0,0,0);
+    height: 500px;
+}
 
-/* responsive media quary */
+/* responsive Small device media quary */
 @media screen and (max-width:576px) {
+
+}
+/* responsive medium device media quary */
+@media screen and (min-width:576px) and (max-width:992px) {
+    /* header style */
+    header {
+    padding: 33px 35px 0;
+    }
+    .banner{
+    flex-direction: column;
+    gap: 2em;
+    }
+    nav>div> ul {
+    padding: 10px;
+    gap: 67px;
+    }
 
 }
 
