@@ -27,7 +27,7 @@ body{
 .flex{
     display: flex;
 }
-.primary-color{
+/* .primary-color{
     color: black;
 }
 .bg-primary{
@@ -35,8 +35,8 @@ body{
 }
 .section-bg{
     color: rgb(0,0,0);
-}
-.btn-bg-color{
+} */
+.bg-color{
     background-color: #E6533C;
 }
 .hidden{
@@ -68,7 +68,7 @@ header{
     
     /* background-color: rgb(34,34,34); */
     background: linear-gradient(180deg, #111 0%,rgb(34,34,34),#111 100% );
-    padding: 57px 190px 0;
+    padding: 57px 150px 0;
 }
 nav{
     display: flex;
@@ -101,7 +101,7 @@ nav li{
 nav li:hover{
     color: #FFF;
     border-radius: 46px;
-    padding: 8px 8px;
+    padding: 8px 12px;
     background-color: #E6533C;
 }
 nav li:last-child{
@@ -122,7 +122,7 @@ nav li a{
 }
 .banner-tittle{
     color: #FFF;
-    font-size: 4em;
+    font-size: 5em;
     font-style: normal;
     font-weight: 900;
     line-height: 120%;
@@ -144,8 +144,81 @@ nav li a{
     line-height: 1.5rem;
     letter-spacing: 0.5px;
 }
+.image-content{
+    position: relative;
+}
+.video-tutorial{
+    position: absolute;
+    /* bottom: 305px;
+    left: 1080px; */
+    bottom: 75px;
+    left: -85px;
+    justify-content: center;
+    align-items: center;
+    width: 206px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    padding: 23px;
+    gap: 12px;
+}
+.video-tutorial-icon i{
+    font-size: 2rem;
+    color: #E6533C;
+}
+.video-tutorial-content h3{
+    color: #FAFAF9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.video-tutorial-content p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.Workout-videos{
+    position: absolute;
+    top: 140px;
+    left:215px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 193px;
+    height: 98px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background-color: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+}
+.Workout-videos-content h3{
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.Workout-videos-content p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
 
+/* responsive media quary */
+@media screen and (max-width:576px) {
 
-
-/* media quary */
+}
 
