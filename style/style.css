@@ -43,6 +43,7 @@ body{
     display: none;
 }
 .btn-primary{
+    cursor: pointer;
     color: #FFF;
     font-size: 18px;
     font-style: normal;
@@ -50,13 +51,13 @@ body{
     line-height: 22px;
     padding: 16px 40px;
     justify-content: center;
-    align-items: flex-start;
     gap: 10px;
     border-radius: 42px;
     border: 1px solid #FFF;
     background-color: rgb(14,14,14);
 }
 .btn-primary:hover{
+    border: none;
     background-color: #E6533C;
 }
 
@@ -65,8 +66,9 @@ body{
 /* header styles */
 header{
     
-    background-color: rgb(34,34,34);
-    padding: 28px 240px 0;
+    /* background-color: rgb(34,34,34); */
+    background: linear-gradient(180deg, #111 0%,rgb(34,34,34),#111 100% );
+    padding: 57px 190px 0;
 }
 nav{
     display: flex;
@@ -142,3 +144,8 @@ nav li a{
     line-height: 1.5rem;
     letter-spacing: 0.5px;
 }
+
+
+
+/* media quary */
+
