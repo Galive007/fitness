@@ -42,6 +42,32 @@ body{
 .hidden{
     display: none;
 }
+/* main section style */
+main{
+    background: rgb(0,0,0);
+}
+section{
+    padding-top: 5em;
+    max-width: 1044px;
+    margin: 0 auto;
+}
+.common-tittle{
+    color: #FFF;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 57.6px */
+}
+.common-paragraph{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.3px;
+}
 .btn-primary{
     cursor: pointer;
     color: #FFF;
@@ -216,11 +242,48 @@ nav li a{
     line-height: 1em;
     letter-spacing: 1px;
 }
-/* main section style */
-main{
-    background: rgb(0,0,0);
-    height: 500px;
+
+/* change habit section */
+.change-habit{
+    /* border: 1px solid red; */
 }
+.change-habit-content{
+    width: 670px;
+    margin: 0 auto;
+}
+.change-habits-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 2.9em;
+}
+.card-content{
+    width: 230px;
+    margin: 0 auto;
+}
+.card-content img{
+    border-radius: 50%;
+    overlay: lightgray;
+}
+.card-content h4{
+    margin-top: 1.8rem;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+.card-content p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2rem;
+    letter-spacing: 0.3px;
+}
+
+
+
+
 
 /* responsive Small device media quary */
 @media screen and (max-width:576px) {
@@ -239,6 +302,18 @@ main{
     nav>div> ul {
     padding: 10px;
     gap: 67px;
+    }
+    /* change habit section */
+    .change-habit-content{
+        width: 470px;
+        margin: 0 auto;
+    }
+    .change-habits-cards{
+        grid-template-columns: repeat(2,1fr);
+        gap: 2em;
+    }
+    .card-content{
+        text-align: center;
     }
 
 }
