@@ -287,7 +287,25 @@ nav li a{
 
 /* responsive Small device media quary */
 @media screen and (max-width:576px) {
-
+    /* nav{
+        display: hidden;
+    }
+    .banner{
+        flex-direction: column;
+        gap: 2em;
+    } */
+    /* change habit section */
+    .change-habit-content{
+        width: auto;
+        margin: 0 auto;
+    }
+    .change-habits-cards{
+        grid-template-columns: repeat(1,1fr);
+        gap: 2em;
+    }
+    .card-content{
+        text-align: center;
+    }
 }
 /* responsive medium device media quary */
 @media screen and (min-width:576px) and (max-width:992px) {
