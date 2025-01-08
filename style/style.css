@@ -251,6 +251,12 @@ nav li a{
     width: 670px;
     margin: 0 auto;
 }
+.change-habit-content>.common-tittle {
+    text-align: center;
+}
+.change-habit-content>.common-paragraph{
+    text-align: center;
+}
 .change-habits-cards{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -302,6 +308,81 @@ nav li a{
     border-radius: 18px;
     
 }
+/* trainings-and-exercises section */
+.trainings-and-exercises-content{
+    width: 670px;
+}
+.Trainings and Exercises,.common-tittle{
+    text-align: left;
+}
+.Trainings and Exercises,.common-paragraph{
+    margin: 14px 0 45px;
+}
+.trainings-and-exercises-images>.row1{
+    display: grid;
+    grid-template-columns: 230px auto 260px;
+    height: 220px;
+}
+.trainings-and-exercises-images>.row2{
+    display: grid;
+    grid-template-columns: auto 308px 308px;
+    height: 220px;
+}
+.exercises-images-item1{
+    background: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 210, 0.50) 100%), url("../images/exercise1.jpg") lightgray 50% / cover no-repeat;
+}
+.exercises-images-item1 h4{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 180px 0 0 20px;
+}
+.exercises-images-item2{
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.30) 0%, rgba(255, 0, 0, 0.30) 100%), url("../images/exercise2.png") lightgray -0.336px 0px / 100.125% 111.811% no-repeat;
+}
+.exercises-images-item2 h4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 20px;
+}
+.exercises-images-item3{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("../images/exercise3.png") lightgray 50% / cover no-repeat;
+}
+.exercises-images-item3 h4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    margin: 170px 0 0 20px;
+}
+.exercises-images-item4 h4,.exercises-images-item5 h4,.exercises-images-item6 h4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 170px 0 0 20px;
+}
+.exercises-images-item4{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("../images/exercise4.png") lightgray 50% / cover no-repeat;
+}
+.exercises-images-item5{
+    background: linear-gradient(0deg, rgba(66, 255, 0, 0.30) 0%, rgba(66, 255, 0, 0.30) 100%), url("../images/exercise5.jpg") lightgray 50% / cover no-repeat;
+}
+.exercises-images-item6{
+    background: linear-gradient(0deg, rgba(0, 71, 255, 0.30) 0%, rgba(0, 71, 255, 0.30) 100%), url("../images/exercise6.jpg") lightgray 50% / cover no-repeat;
+}
+
+
 
 
 
@@ -332,11 +413,34 @@ nav li a{
         padding: 30px;
         flex-direction: column;
         gap: 2em;
+        margin: 0 20px;
     }
     .run-easily-content .common-paragraph{
         margin: 10px 0 20px;
     }
+    /* trainings-and-exercises */
+    .trainings-and-exercises{
+        margin: 0 20px;
+    }
+    .trainings-and-exercises-content{
+        width: auto;
+    }
+    .exercises-images-item3,.exercises-images-item6{
+        display: none;
+    }
+    .trainings-and-exercises-images>.row1{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 220px;
+    }
+    .trainings-and-exercises-images>.row2{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 220px;
+    }
 }
+
+
 /* responsive medium device media quary */
 @media screen and (min-width:576px) and (max-width:992px) {
     /* header style */
@@ -366,11 +470,25 @@ nav li a{
     /* run easily section */
     .run-easily{
         /* border: 1px solid red; */
-        
+        margin: 0 30px;
         gap: 0em;
     }
     .run-easily-content .common-paragraph{
         margin: 10px 0 20px;
+    }
+    /* trainings-and-exercises */
+    .trainings-and-exercises{
+        margin: 0 30px;
+    }
+    .trainings-and-exercises-images>.row1{
+        display: grid;
+        grid-template-columns: 200px auto 180px;
+        height: 220px;
+    }
+    .trainings-and-exercises-images>.row2{
+        display: grid;
+        grid-template-columns: auto 208px 208px;
+        height: 220px;
     }
 }
 
