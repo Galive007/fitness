@@ -91,15 +91,12 @@ section{
 
 /* header styles */
 header{
-
-    /* background-color: rgb(34,34,34); */
     background: linear-gradient(180deg, #111 0%,rgb(34,34,34),rgb(0,0,0) 100% );
     padding: 57px 150px 0;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    
 }
 .section-tittle{
     color: #E6533C;
@@ -382,15 +379,14 @@ nav li a{
     background: linear-gradient(0deg, rgba(0, 71, 255, 0.30) 0%, rgba(0, 71, 255, 0.30) 100%), url("../images/exercise6.jpg") lightgray 50% / cover no-repeat;
 }
 /* BMI calculator section */
-.bmi-content{
-    width: 670px;
-    margin: 0 auto;
-}
 .bmi-chart{
     padding: 3.5rem 0;
     /* border: 1px solid red; */
-    
     background-color: rgb(34,34,34);
+}
+.bmi-content{
+    width: 670px;
+    margin: 0 auto;
 }
 .charts{
     max-width: 1044px;
@@ -453,19 +449,166 @@ nav li a{
     background: rgba(255, 255, 255, 0.10);
     margin-bottom: 10px;
 }
-
-
-
+/* meet our team section */
+.meet-team{
+    padding-bottom: 5em;
+}
+.meet-team-content{
+    width: 670px;
+    margin: 0 auto;
+}
+#common-tittle,#common-paragraph{
+    text-align: center;
+}
+.meet-team-images{
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+}
+.meet-team-images>.row1-meet ,.row2-meet{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    height: 270px;
+    gap: 10px;
+}
+.row2-meet{
+    margin-top: 10px;
+}
+.meet-team-image1{
+    border-radius: 18px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../images/trainer1.png") lightgray 50% / cover no-repeat;
+}
+.meet-team-image2{
+    border-radius: 18px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../images/trainer2.png") lightgray 50% / cover no-repeat;
+}
+.meet-team-image3{
+    border-radius: 18px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../images/trainer3.png") lightgray 50% / cover no-repeat;
+}
+.meet-team-image4{
+    border-radius: 18px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../images/trainer4.png") lightgray 50% / cover no-repeat;
+}
+.meet-team-image5{
+    border-radius: 18px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../images/trainer5.png") lightgray 50% / cover no-repeat;
+}
+.meet-team-image6{
+    border-radius: 18px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../images/trainer6.png") lightgray 50% / cover no-repeat;
+}
+.img-content{
+    margin: 210px 0 0 20px;
+}
+.img-content>h4{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 24px */
+}
+.img-content>p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+}
+footer{
+    background: rgb(25,25,25);
+    height: 450px;
+}
+.footer-details{
+    max-width: 1044px;
+    margin: 0 auto;
+    gap: 100px;
+    padding: 60px 0 80px;
+}
+.footer-logo{
+    width: 440px;
+}
+.footer-logo h1{
+    color: #E6533C;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+}
+.footer-logo p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.3px;
+    }
+.get-started{
+    gap: 100px;
+}
+.get-started1,.get-started2{
+    flex-direction: column;
+    gap: 20px;
+}
+.get-started1 h3,.get-started2 h3{
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+} 
+.get-started1 a,.get-started2 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    cursor: pointer;
+}
+.hr{
+    max-width: 1044px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+}
+.reserved{
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
 
 /* responsive Small device media quary */
 @media screen and (max-width:576px) {
-    /* nav{
-        display: hidden;
+    
+    /* shared style */
+    section{
+        padding-top: 2em;
+    }
+    header {
+        padding: 35px 15px 0;
+    }
+    nav>div> ul {
+        flex-direction: column;
     }
     .banner{
         flex-direction: column;
         gap: 2em;
-    } */
+    }
+    .banner-tittle {
+        font-size: 4em;
+    }
+    .Workout-videos {
+        left: 174px;
+    }
+    .video-tutorial {
+        left: -17px;
+    }
     /* change habit section */
     .change-habit-content{
         width: auto;
@@ -514,7 +657,7 @@ nav li a{
         margin: 0 20px;
     }
     .bmi-chart{
-        padding: 3.5rem 50px;
+        padding: 2rem 50px;
     }
     .charts{
         flex-direction: column;
@@ -532,11 +675,27 @@ nav li a{
     #form-big {
         width: 385px;
     }
+    /* meet our team section */
+    .meet-team-images>.row1-meet ,.row2-meet{
+        grid-template-columns: repeat(2,1fr); 
+        gap: 10px;
+    }
+    .meet-team-content {
+        width: auto;
+        margin: 0 20px;
+    }
+    .meet-team-image1,.meet-team-image4{
+        display: none;
+    }
 }
 
 
 /* responsive medium device media quary */
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (min-width:576px) and (max-width:992px){
+    /* shared style */
+    section{
+        padding-top: 3em;
+    }
     /* header style */
     header {
     padding: 33px 35px 0;
@@ -598,6 +757,12 @@ nav li a{
     .calculate-bmi , .table-paragraph{
         text-align: center;
     }
-    
+    /* meet our team section */
+    .meet-team{
+        padding: 3.5rem 30px;
+    }
+    .meet-team-content {
+        width: auto;
+    }
 }
 
