@@ -381,8 +381,78 @@ nav li a{
 .exercises-images-item6{
     background: linear-gradient(0deg, rgba(0, 71, 255, 0.30) 0%, rgba(0, 71, 255, 0.30) 100%), url("../images/exercise6.jpg") lightgray 50% / cover no-repeat;
 }
-
-
+/* BMI calculator section */
+.bmi-content{
+    width: 670px;
+    margin: 0 auto;
+}
+.bmi-chart{
+    padding: 3.5rem 0;
+    /* border: 1px solid red; */
+    
+    background-color: rgb(34,34,34);
+}
+.charts{
+    max-width: 1044px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.table-tittle{
+    color: #FFF;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 1.5em;
+}
+.table-data th,td{
+    padding: 14px 20px;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+.calculate-bmi{
+    width: 570px;
+}
+.calculate-bmi>.table-tittle{
+    margin-bottom: 8px;
+}
+.calculate-bmi>.common-paragraph{
+    margin-bottom: 30px;
+}
+#form{
+    width: 280px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 12px 40px 12px 20px;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    margin-bottom: 10px;
+}
+#form-big{
+    width: 565px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 12px 40px 12px 20px;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    margin-bottom: 10px;
+}
 
 
 
