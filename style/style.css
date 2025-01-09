@@ -508,6 +508,30 @@ nav li a{
         grid-template-columns: auto auto;
         height: 220px;
     }
+    /* BMi Section */
+    .bmi-content {
+        width: auto;
+        margin: 0 20px;
+    }
+    .bmi-chart{
+        padding: 3.5rem 50px;
+    }
+    .charts{
+        flex-direction: column;
+        align-items: center;
+    }
+    .calculator-chart{
+        margin-bottom: 1.5rem;
+    }
+    .calculate-bmi , .table-paragraph{
+        text-align: center;
+    }
+    #form {
+        width: 192px;
+    }
+    #form-big {
+        width: 385px;
+    }
 }
 
 
@@ -560,5 +584,20 @@ nav li a{
         grid-template-columns: auto 208px 208px;
         height: 220px;
     }
+    /* BMi Section */
+    .bmi-chart{
+        padding: 3.5rem 30px;
+    }
+    .charts{
+        flex-direction: column;
+        align-items: center;
+    }
+    .calculator-chart{
+        margin-bottom: 1.5rem;
+    }
+    .calculate-bmi , .table-paragraph{
+        text-align: center;
+    }
+    
 }
 
