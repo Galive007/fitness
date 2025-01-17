@@ -134,6 +134,9 @@ nav li a{
     text-decoration: none;
     color: #FFF;
 }
+.hamburger-icon{
+    display: none;
+}
 /* banner section */
 .banner{
     justify-content: center;
@@ -591,10 +594,17 @@ footer{
         padding-top: 2em;
     }
     header {
-        padding: 35px 15px 0;
+        padding: 20px 15px 0;
     }
     nav>div> ul {
-        flex-direction: column;
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+        color: #FFF;
+    }
+    nav{
+        align-items: center;
     }
     .banner{
         flex-direction: column;
@@ -695,7 +705,7 @@ footer{
     .footer-details{
         flex-direction: column;
         gap: 20px;
-        padding: 25px 0 42px;
+        padding: 25px 20px 42px;
     }
     .footer-logo {
         width: auto;
