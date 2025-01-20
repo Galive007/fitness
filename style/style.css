@@ -91,7 +91,8 @@ section{
 
 /* header styles */
 header{
-    background: linear-gradient(180deg, #111 0%,rgb(34,34,34),rgb(0,0,0) 100% );
+    /* background: linear-gradient(180deg, #111 0%,rgb(34,34,34),rgb(0,0,0) 100% ); */
+    background-image: linear-gradient(to bottom, #000000, #110f10, #1b191b, #242225, #2d2c30, #2d2c30, #2d2c30, #2d2c30, #242225, #1b191b, #110f10, #000000);
     padding: 57px 150px 0;
 }
 nav{
@@ -122,10 +123,13 @@ nav li{
     line-height: 120%;
 }
 nav li:hover{
-    color: #FFF;
+    /* color: #FFF;
     border-radius: 46px;
     padding: 8px 12px;
+    background-color: #E6533C; */
+    outline: 10px solid #E6533C;
     background-color: #E6533C;
+    border-radius: 46px;
 }
 nav li:last-child{
     margin-right: 0;
